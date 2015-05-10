@@ -1,0 +1,32 @@
+{
+  "name": "fonflatter-node-utils",
+  "version": "1.0.0-dev",
+  "description": "helpers for node.js modules at fonflatter.de",
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "bin/run-tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fonflatter/node-utils"
+  },
+  "author": "winniehell <git@winniehell.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fonflatter/node-utils/issues"
+  },
+  "homepage": "https://github.com/fonflatter/node-utils",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "istanbul": "git://github.com/winniehell/istanbul#expose-extensions-option",
+    "mocha": "^2.2.4",
+    "streamline": "git://github.com/Sage/streamlinejs#1614cf065896411ff959083fd4feaada104d0a59",
+    "supertest": "^0.15.0"
+  },
+  "//": [
+    "waiting for https://github.com/gotwarlost/istanbul/pull/353",
+    "waiting for streamline 0.12.2"
+  ]
+}
