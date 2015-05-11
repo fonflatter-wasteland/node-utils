@@ -20,13 +20,13 @@
   "homepage": "https://github.com/fonflatter/node-utils",
   "dependencies": {
     "chai": "^2.3.0",
-    "istanbul": "git://github.com/winniehell/istanbul#expose-extensions-option",
+    "istanbul": "git://github.com/gotwarlost/istanbul#65c58a668f016296bc1a85ee6eb457cd6c8b80f8",
     "mocha": "^2.2.4",
     "streamline": "git://github.com/Sage/streamlinejs#1614cf065896411ff959083fd4feaada104d0a59",
     "supertest": "^0.15.0"
   },
   "//": [
-    "waiting for https://github.com/gotwarlost/istanbul/pull/353",
+    "waiting for istanbul 0.3.14",
     "waiting for streamline 0.12.2"
   ]
 }
