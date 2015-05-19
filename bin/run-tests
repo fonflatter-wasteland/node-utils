@@ -1,24 +1,3 @@
 #!/usr/bin/env node
 
-(function () {
-  'use strict';
-
-  require('streamline').register({
-    "cache": true,
-    "fibers": true,
-    "verbose": true
-  });
-
-  var istanbul = require('istanbul/lib/cli');
-  var path = require('path');
-
-  var utilsRoot = path.join(__dirname, '..');
-
-  istanbul.runToCompletion([
-      'cover',
-      '--config ' + path.join(utilsRoot, '.istanbul.yml'),
-      path.join(utilsRoot, 'node_modules', '.bin', '_mocha'),
-    ]
-  );
-
-})();
+require('../lib/run/tests')();
